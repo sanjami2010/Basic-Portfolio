@@ -4,6 +4,8 @@ body {
  line-height: 30px;
  font-family: Arial, Helvetica, sans-serif;
  color: #777777;
+ background-image: url("images/bkg.jpeg");
+ background-position: bottom;
 
 }
 .container {
@@ -111,7 +113,21 @@ footer{
   color: #fff;
   text-align: center;
   position: absolute;
-  bottom: 20px;
-  padding: 15px;
+  bottom: 5px;
+  padding: 10px;
   width:100%;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+#contact-form ul {
+  margin-bottom: 20px;
+}
+#contact-form li{
+  margin-bottom: 10px;
+}
+label,input[type-text],
+input[type-email],
+textarea {
+  display: block;
+  width: 100%;
 }
