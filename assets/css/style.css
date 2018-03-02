@@ -1,0 +1,53 @@
+
+body {
+ font-size: 20px;
+ line-height: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #777777;
+
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+#tophead {
+  background: #fff;
+  margin: 0 0 30px;
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+  position: fixed;
+  width: 100%;
+}
+#branding{
+  width: 300px;
+  height: 100px;
+  background:#4aaa;
+  float: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: #fff;
+  font-weight:bold;
+  font-size: 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-top: 50px;
+}
+
+nav{
+  float: right;
+  margin-top: 60px;
+}
+nav a {
+  color: #999;
+  text-decoration: none;
+  margin-left: 15px;
+  border-left: 1px solid #efefef;
+  padding-left: 15px;
+  line-height: 18px;
+}
+nav a:first-child {
+  border-left: 0 none;
+
+}
