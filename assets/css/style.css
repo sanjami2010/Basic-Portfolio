@@ -6,6 +6,8 @@ body {
  color: #777777;
  background-image: url("../images/bkg.jpeg");
  background-position: bottom;
+ background-repeat: no-repeat;
+ 
 
 }
 .container {
@@ -77,6 +79,10 @@ nav a:first-child {
 }
 .maincontainer{
   padding-top: 130px;
+  height: 100%;
+}
+.topsection{
+    width: 960px;
 }
 /*profile image*/
 .pro-img {
@@ -113,10 +119,10 @@ footer{
   color: #fff;
   text-align: center;
   position: absolute;
-  bottom: 5px;
+  
   padding: 10px;
-  width:100%;
-  line-height: 30px;
+  
+  line-height: 10px;
   margin-bottom: 0;
 }
 #contact-form ul {
