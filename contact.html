@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me </title>
+    <title>Contact | Santhi Sri Jamisetty </title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
@@ -30,46 +30,43 @@
             </nav>
         </div>
     </header>
-    <div class="maincontainer" class="container">
+    <div id="maincontainer" class="container">
         <section class="topsection">
             <h1>Contact</h1>
             <table>
-               
-                <form>
-                    <tr>
-                    <label>Name
-                        <br>
-                        <input type="text" name="name" placeholder="John Smith" />
-                    </label>
-                    <br>
-                    </tr>
-                    <label>Email
-                        <br>
-                        <input type="email" name="email" placeholder="example@gmail.com" />
-                    </label>
-                    <br>
-                    <label>Message
-                        <br>
-                        <textarea type="text" name="textarea" cols="35" rows="10"></textarea>
-                        <br>
-                        <input type="submit" name="submit" />
-                    </label>
-                    <br>
+
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+
+                            <input type="text" id="name" name="name" placeholder="John Smith" requirea="required" />
+                        </li>
+
+                        <li>
+                            <label for="email">Email</label>
+
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" />
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+
+                            <textarea id="message" name="message" cols="35" rows="10" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit" />
 
                 </form>
-            </table>
+
 
         </section>
     </div>
+
     <footer>
         <div class="container">
             &copy; Copyright 2018 Santhi Sri Jamisetty
         </div>
-
-
-
     </footer>
-
 </body>
 
 </html>
